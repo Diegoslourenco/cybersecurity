@@ -37,7 +37,7 @@ class Caesar:
 
     def brute_force(self, symbols):
         """
-        Receives a text and return a list with all the possibilities to decrypt a text without a 
+        Receives a text and returns a list with all the possibilities to decrypt a text without a 
         key using brute-force attack
 
         """
