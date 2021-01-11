@@ -22,7 +22,7 @@ guvFMvFM KMFrpErGM rFFntr
 This is my secret message
 ```
 
-### All the possibilities using `brute_force()` returning the pair key-message value and the correct one:
+### All the possibilities whitout the key using `brute_force()` returning the pair key-message value and the correct one:
 
 ```sh
 [   (0, 'guvFMvFM KMFrpErGM rFFntr'),  (1, 'ftuELuELzJLEqoDqFLzqEEmsq'),  (2, 'estDKtDKyIKDpnCpEKypDDlrp'), 
