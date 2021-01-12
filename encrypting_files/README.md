@@ -4,9 +4,9 @@ Functions in the `file_encrypt.py`:
 
 * `open_file()` opens a file and returns its content.
 
-* `export_file()` receives content and export as a file.
+* `export_file()` receives content and exports as a file.
 
-* `encrypt_transposition()` receives a file and a key and cipher its content using the transposition method.
+* `encrypt_transposition()` receives a file and a key and ciphers its content using the transposition method.
 
 * `decrypt_transposition()` receives a file and a key and returns the original content.
 
