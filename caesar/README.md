@@ -1,6 +1,13 @@
 # Caesar Cipher Algorithm
 
-Running the `main.py` the results for this message and symbols are:
+In `Caesar Cipher` each symbol in a given message, usually called plaintext, is replaced by a symbol some fixed number of position down of some group of symbols. This fixed number is called `key`. For example, according to the group of `symbols` below and a key equal to 3, the D would be replaced by G, E would become H, and so on. The method is a reference to Julius Caesar, who used it in his private correspondence.
+
+The methods for the class `Caesar`:
+* `encrypt()` takes a text and a key and returns a cipher message.
+* `decrypt()` takes a cipher message and a key and returns the original message.
+* `brute_force()` receives only a cipher message. Using a brute-forte attack it tests all the possible keys and return the result messages in a list that each item corresponds to a pair key and decrypted message.
+
+Running the `main.py`, the results for this message and symbols are:
 <br>
 
 message = 'This is my secret message' <br>
