@@ -32,6 +32,8 @@ The functions present in the `detect_language.py`:
 * `count_language()` receives a text and returns the percentage about how many words from a given language are in a text.
 * `check_valid_language()` receives a text and checks if some part of it is in a given language and returns a true or false.
 
+<br>
+
 Running the `main.py` the results for the messages are:
 <br>
 
