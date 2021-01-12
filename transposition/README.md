@@ -21,7 +21,7 @@ The methods for the class `Transposition`:
 
 <br>
 
-* `brute_force()` receives only a cipher message and a language. Using a brute-forte attack it will test all the possible keys and return the result messages in a list that each item corresponds to a pair key and decrypted message. Because there are many possible solutions for these problem, a good way to solve this is that for each possible decrypted message here, check if some words make sense in a given language. For this purpuse, the `detected_language` module was created.
+* `brute_force()` receives only a cipher message and a language. Using a brute-forte attack it will test all the possible keys and return the result messages in a list that each item corresponds to a pair key and decrypted message. Because there are many possible solutions for this problem, a good way to solve this is that for each possible decrypted message here, check if some words make sense in a given language. For this purpuse, the `detected_language` module was created.
 
 <br>
 
