@@ -58,7 +58,7 @@ Tmtehy .i msse esicssra eg
 This is my secret message.
 ```
 
-### All the possibilities whitout the key using `brute_force()` returning the pair key-message value that matches at least 50% words as valid english words:
+### All the possibilities whithout the key using `brute_force()` returning the pair key-message value that matches at least 50% words as valid english words:
 
 ```sh
 [(8, 'This is my secret message.')]
@@ -79,7 +79,7 @@ Eiscsnarshgeaaet  maém . esmne
 Essa é minha mensagem secreta.
 ```
 
-### All the possibilities whitout the key using `brute_force()` returning the pair key-message value that matches at least 50% of words as valid portuguese words:
+### All the possibilities whithout the key using `brute_force()` returning the pair key-message value that matches at least 50% of words as valid portuguese words:
 
 ```sh
 [   
