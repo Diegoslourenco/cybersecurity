@@ -1,3 +1,3 @@
-# cybersecurity-python
+# cybersecurity
 
 My cybersecurity studies repository
