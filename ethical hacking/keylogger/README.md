@@ -16,4 +16,4 @@ The file is a simple keylloger that saves the keys pressed in a file called `log
 
 
 
-![image-20210119175916688](C:\Users\Diego Lourenço\AppData\Roaming\Typora\typora-user-images\image-20210119175916688.png)
+![image-log.txt](https://github.com/Diegoslourenco/cybersecurity/blob/master/ethical%20hacking/keylogger/img/image-20210119175916688.png)
