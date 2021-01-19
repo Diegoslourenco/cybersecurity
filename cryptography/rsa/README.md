@@ -25,7 +25,7 @@ The functions in `rsa_key_generator.py` are:
 - `generate_key()`: receives a size for the keys in bits and returns the two public and private key pairs.
 - `export_key()` exports a txt file that contains the size for the keys and the respective public and private pair keys in two different files. 
 
-##### Large Prime Numbers
+#### Large Prime Numbers
 
 In order to create the two random **large prime numbers** in step 1, the **Miller-Rabin** [¹](https://crypto.stanford.edu/pbc/notes/numbertheory/millerrabin.html)  [²](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)  algorithm was used. For organization purposes, the `miller_rabin.py` was created and contains:
 
@@ -33,14 +33,14 @@ In order to create the two random **large prime numbers** in step 1, the **Mille
 * `check_prime()`: the Miller-Rabin algorithm could be slow sometimes. In order to cover some basic prime number cases, this function checks some low prime numbers that cover a vast number of cases. If it is not the case, this function calls the `test_miller_rabin()`.
 * `generate_large_prime()`: could receive the size for the keys in bits and returns a large prime number based on that. If a key size was not provided, the default value is 1024 bits.
 
-##### Euclidean Algorithms
+#### Euclidean Algorithms
 
 For steps 2 and 3 it is necessary to do some math to find the keys. A `euclidean.py` was created and the functions in it are:
 
 * `find_gcd`: takes two numbers and uses the **Euclidean algorithm**  [¹](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm)  [²](https://crypto.stanford.edu/pbc/notes/numbertheory/euclid.html)  to compute and return the Greatest Common Divisor for the given numbers.
 * `fin_mod_inverse()`: returns the modular inverse of two given numbers using the [extended Euclidean algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm).
 
-### RSA Schema
+## RSA Schema
 
 After the keys are created, the RSA schema can be shown. With this intention, the class `Rsa` was created and can receive optionally two parameters.  The `text` is the text to be encrypted or decrypted and could be left empty. The `block size`  parameter corresponds to the size of the blocks in **bytes** that the message is going to be encrypted or decrypted and the default value is 128. The methods inside `rsa.py` are:
 * `read_key_file()`: is used to open the file that contains the keys.
