@@ -2,7 +2,7 @@ from transposition import Transposition
 
 def open_file(file_name):
     """
-    Opens a file and returns the content
+    Open a file and return the content
     """
     opened_file = open(file_name, encoding='utf8')
     content = opened_file.read()
@@ -13,7 +13,7 @@ def open_file(file_name):
 
 def export_file(content, file_name):
     """
-    Exports the content to a txt file
+    Export the content to a txt file
     """
     exported_file = open(file_name, 'w', encoding='utf8')
     exported_file.write(content)
@@ -24,7 +24,7 @@ def export_file(content, file_name):
 
 def encrypt_transposition(input_file, key):
     """
-    Encrypts a text in a file given a key according to the Transposition method
+    Encrypt a text in a file given a key according to the Transposition method
     """
     # Open the file and saving the content in a variable
     content = open_file(input_file)
@@ -43,7 +43,7 @@ def encrypt_transposition(input_file, key):
 
 def decrypt_transposition(input_file, key):
     """
-    Decrypts a text in a file given a key according to the Transposition method
+    Decrypt a text in a file given a key according to the Transposition method
     """
     # Open the file and saving the content in a variable
     content = open_file(input_file)

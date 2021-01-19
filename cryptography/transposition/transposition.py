@@ -1,13 +1,16 @@
 # Transposition cipher Algorithm
 
 class Transposition:
+    """
+    Receive the text
+    """
 
     def __init__(self, text):
         self.text = text
     
     def encrypt(self, key):
         """
-        Giving a key, returns the encrypted message in a transposition way
+        Giving a key, return the encrypted message in a transposition way
         """
 
         cipher_text = [''] * key
@@ -56,8 +59,8 @@ class Transposition:
 
     def brute_force(self, language='', word_percentage=50, letter_percentage=80):
         """
-        Uses the brute force attack to check for all keys
-        Checks the decrypted text for a given language and returns all the possibilities 
+        Use the brute force attack to check for all keys\n
+        Check the decrypted text for a given language and returns all the possibilities 
         in a list as (key, message)\n
         The default values are language equals to english, word percentage 50% and letter percentage 80%
         """

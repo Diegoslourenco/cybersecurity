@@ -1,6 +1,9 @@
 # Caesar Cipher Algorithm
 
 class Caesar:
+    """
+    Receive the text
+    """
 
     def __init__(self, text):
         self.text = text
@@ -37,7 +40,7 @@ class Caesar:
 
     def brute_force(self, symbols):
         """
-        Receives a text and returns a list with all the possibilities to decrypt a text without a 
+        Receive a text and return a list with all the possibilities to decrypt a text without a 
         key using brute-force attack
 
         """
