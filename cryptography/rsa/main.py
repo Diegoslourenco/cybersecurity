@@ -4,7 +4,6 @@ from rsa_key_generator import export_key
 def main():
     # Creating public and private keys
     key_size = 1024
-    block = 32
     export_key('diego', key_size)
 
     # Message to be encrypted
